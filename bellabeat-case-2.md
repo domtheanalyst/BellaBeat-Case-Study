@@ -1141,7 +1141,7 @@ ggplot(aes(x = weekday, y= avg_sleep_per_day))+
   theme(axis.text.x = element_text(angle=45, vjust = 0.5, hjust= 1))
 ```
 
-![](images/unnamed-chunk-50-1.png)<!-- -->
+![](https://github.com/domtheanalyst/BellaBeat-Case-Study/blob/main/minutes%20asleep%20vs%20calories.png?raw=true)<!-- -->
 
 We can see that users get about 400 minutes (6 and a half hours) of
 sleep everyday of the week and slightly higher on Sundays, however this
