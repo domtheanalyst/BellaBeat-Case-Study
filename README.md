@@ -1,6 +1,8 @@
 # BellaBeat-Case-Study
 Exploratory Data Analysis for BellaBeat, a fitness smart gadgets and wearables maker using R Programming Language
 
+![](https://github.com/domtheanalyst/BellaBeat-Case-Study/blob/main/cover%20image.jpg?raw=true)<!-- -->
+
 ## INTRODUCTION
    
 Bellabeat is a tech company that makes health smart gadgets.
