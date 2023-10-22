@@ -49,4 +49,4 @@ We are going to be using these list of R packages for our analysis.
 
 6. ggpubr: extends the abilities of ggplot2 to create multiple plots, etc.
 
-You can find all case study codes and visualizations here ... bellabeat-case-2.md
+You can find all case study codes and visualizations here ... [BellaBeat Case Study](https://github.com/domtheanalyst/BellaBeatCase-Study/blob/main/bellabeat-case-2.md)
