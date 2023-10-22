@@ -1056,7 +1056,7 @@ user_type_percentage %>%
   labs(title= "Categories of Users Based on Activity")
 ```
 
-![](images/unnamed-chunk-47-1.png)<!-- -->
+![](https://github.com/domtheanalyst/BellaBeat-Case-Study/blob/main/categories%20by%20activity.png?raw=true)<!-- -->
 
 We can see that 38% of users are moderately active, there is a fair
 share of users who are sedentary and low-active about 21% each. 17
@@ -1121,7 +1121,7 @@ ggplot(aes(x = weekday, y= avg_steps_per_day))+
   theme(axis.text.x = element_text(angle=45, vjust = 0.5, hjust= 1))
 ```
 
-![](images/unnamed-chunk-49-1.png)<!-- -->
+![](https://github.com/domtheanalyst/BellaBeat-Case-Study/blob/main/steps%20per%20weekday.png?raw=true)<!-- -->
 
 We can see that all users walk more than 7500 steps per day all the days
 of the week except Sundays which is commendable, it can be assumed that
@@ -1141,7 +1141,7 @@ ggplot(aes(x = weekday, y= avg_sleep_per_day))+
   theme(axis.text.x = element_text(angle=45, vjust = 0.5, hjust= 1))
 ```
 
-![](https://github.com/domtheanalyst/BellaBeat-Case-Study/blob/main/minutes%20asleep%20vs%20calories.png?raw=true)<!-- -->
+![](https://github.com/domtheanalyst/BellaBeat-Case-Study/blob/main/sleep%20per%20weekday.png?raw=true)<!-- -->
 
 We can see that users get about 400 minutes (6 and a half hours) of
 sleep everyday of the week and slightly higher on Sundays, however this
@@ -1233,7 +1233,7 @@ hourly_steps_modified %>%
   theme(axis.text.x = element_text(angle=90, vjust = 0.5, hjust= 1))
 ```
 
-![](images/unnamed-chunk-54-1.png)<!-- -->
+![](https://github.com/domtheanalyst/BellaBeat-Case-Study/blob/main/hourly%20steps.png?raw=true)<!-- -->
 
 As we can see from the charts, users are most active between 8:00AM and
 19:00PM, with peak active periods between 12:00PM - 14:00PM and
@@ -1350,7 +1350,7 @@ daily_use_percent %>%
   labs(title= "Categories of Users Based Usage Frequency")
 ```
 
-![](images/unnamed-chunk-58-1.png)<!-- -->
+![](https://github.com/domtheanalyst/BellaBeat-Case-Study/blob/main/usage%20categories.png?raw=true)<!-- -->
 
 INSIGHTS
 
@@ -1382,7 +1382,7 @@ daily_activity_n_sleep %>%
 
     ## `geom_smooth()` using formula = 'y ~ x'
 
-![](images/unnamed-chunk-59-1.png)<!-- -->
+![](https://github.com/domtheanalyst/BellaBeat-Case-Study/blob/main/daily%20steps%20vs%20calorie.png?raw=true)<!-- -->
 
 **Calories Vs Sleep Record**
 
@@ -1415,7 +1415,7 @@ daily_activity_n_sleep %>%
   theme(plot.title = element_text(size = 12))
 ```
 
-![](images/unnamed-chunk-61-1.png)<!-- -->
+![](https://github.com/domtheanalyst/BellaBeat-Case-Study/blob/main/calories%20vs%20sleep%20record.png?raw=true)<!-- -->
 
 **Minutes Asleep vs Time in Bed**
 
@@ -1430,7 +1430,7 @@ daily_activity_n_sleep %>%
 
     ## `geom_smooth()` using formula = 'y ~ x'
 
-![](images/unnamed-chunk-62-1.png)<!-- -->
+![](https://github.com/domtheanalyst/BellaBeat-Case-Study/blob/main/minutes%20asleep%20vs%20time%20in%20bed.png?raw=true)<!-- -->
 
 ### Minutes Asleep vs Calories
 
@@ -1445,7 +1445,7 @@ daily_activity_n_sleep %>%
 
     ## `geom_smooth()` using formula = 'y ~ x'
 
-![](images/unnamed-chunk-63-1.png)<!-- -->
+![](https://github.com/domtheanalyst/BellaBeat-Case-Study/blob/main/minutes%20asleep%20vs%20calories.png?raw=true)<!-- -->
 
 ``` r
 # Let's assemble all the plots in one place.
@@ -1481,7 +1481,7 @@ ggarrange(
     ## `geom_smooth()` using formula = 'y ~ x'
     ## `geom_smooth()` using formula = 'y ~ x'
 
-![](images/unnamed-chunk-64-1.png)<!-- -->
+![](https://github.com/domtheanalyst/BellaBeat-Case-Study/blob/main/all%20correlation%20charts.png?raw=true)<!-- -->
 
 ### Insights
 
