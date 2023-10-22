@@ -103,7 +103,7 @@ install.packages('tidyverse')
     ## package 'tidyverse' successfully unpacked and MD5 sums checked
     ## 
     ## The downloaded binary packages are in
-    ##  C:\Users\SHOW ICT\AppData\Local\Temp\RtmpsVGMsz\downloaded_packages
+    ##  C:\Users\SHOW ICT\AppData\Local\Temp\Rtmp4O06li\downloaded_packages
 
 ``` r
 install.packages('janitor')
@@ -115,7 +115,7 @@ install.packages('janitor')
     ## package 'janitor' successfully unpacked and MD5 sums checked
     ## 
     ## The downloaded binary packages are in
-    ##  C:\Users\SHOW ICT\AppData\Local\Temp\RtmpsVGMsz\downloaded_packages
+    ##  C:\Users\SHOW ICT\AppData\Local\Temp\Rtmp4O06li\downloaded_packages
 
 ``` r
 install.packages('lubridate')
@@ -139,7 +139,7 @@ install.packages('lubridate')
 
     ## 
     ## The downloaded binary packages are in
-    ##  C:\Users\SHOW ICT\AppData\Local\Temp\RtmpsVGMsz\downloaded_packages
+    ##  C:\Users\SHOW ICT\AppData\Local\Temp\Rtmp4O06li\downloaded_packages
 
 ``` r
 install.packages('skimr')
@@ -151,7 +151,7 @@ install.packages('skimr')
     ## package 'skimr' successfully unpacked and MD5 sums checked
     ## 
     ## The downloaded binary packages are in
-    ##  C:\Users\SHOW ICT\AppData\Local\Temp\RtmpsVGMsz\downloaded_packages
+    ##  C:\Users\SHOW ICT\AppData\Local\Temp\Rtmp4O06li\downloaded_packages
 
 ``` r
 install.packages('ggrepel')
@@ -174,7 +174,7 @@ install.packages('ggrepel')
 
     ## 
     ## The downloaded binary packages are in
-    ##  C:\Users\SHOW ICT\AppData\Local\Temp\RtmpsVGMsz\downloaded_packages
+    ##  C:\Users\SHOW ICT\AppData\Local\Temp\Rtmp4O06li\downloaded_packages
 
 ``` r
 install.packages('ggpubr')
@@ -186,7 +186,7 @@ install.packages('ggpubr')
     ## package 'ggpubr' successfully unpacked and MD5 sums checked
     ## 
     ## The downloaded binary packages are in
-    ##  C:\Users\SHOW ICT\AppData\Local\Temp\RtmpsVGMsz\downloaded_packages
+    ##  C:\Users\SHOW ICT\AppData\Local\Temp\Rtmp4O06li\downloaded_packages
 
 Now that all the packages are installed, we get them ready for our
 analysis.
@@ -1121,7 +1121,7 @@ ggplot(aes(x = weekday, y= avg_steps_per_day))+
   theme(axis.text.x = element_text(angle=45, vjust = 0.5, hjust= 1))
 ```
 
-![](bellabeat-case-2_files/figure-gfm/unnamed-chunk-49-1.png)<!-- -->
+![](images/unnamed-chunk-49-1.png)<!-- -->
 
 We can see that all users walk more than 7500 steps per day all the days
 of the week except Sundays which is commendable, it can be assumed that
@@ -1141,7 +1141,7 @@ ggplot(aes(x = weekday, y= avg_sleep_per_day))+
   theme(axis.text.x = element_text(angle=45, vjust = 0.5, hjust= 1))
 ```
 
-![](bellabeat-case-2_files/figure-gfm/unnamed-chunk-50-1.png)<!-- -->
+![](images/unnamed-chunk-50-1.png)<!-- -->
 
 We can see that users get about 400 minutes (6 and a half hours) of
 sleep everyday of the week and slightly higher on Sundays, however this
@@ -1233,7 +1233,7 @@ hourly_steps_modified %>%
   theme(axis.text.x = element_text(angle=90, vjust = 0.5, hjust= 1))
 ```
 
-![](bellabeat-case-2_files/figure-gfm/unnamed-chunk-54-1.png)<!-- -->
+![](images/unnamed-chunk-54-1.png)<!-- -->
 
 As we can see from the charts, users are most active between 8:00AM and
 19:00PM, with peak active periods between 12:00PM - 14:00PM and
@@ -1350,7 +1350,7 @@ daily_use_percent %>%
   labs(title= "Categories of Users Based Usage Frequency")
 ```
 
-![](bellabeat-case-2_files/figure-gfm/unnamed-chunk-58-1.png)<!-- -->
+![](images/unnamed-chunk-58-1.png)<!-- -->
 
 INSIGHTS
 
@@ -1382,7 +1382,7 @@ daily_activity_n_sleep %>%
 
     ## `geom_smooth()` using formula = 'y ~ x'
 
-![](bellabeat-case-2_files/figure-gfm/unnamed-chunk-59-1.png)<!-- -->
+![](images/unnamed-chunk-59-1.png)<!-- -->
 
 **Calories Vs Sleep Record**
 
@@ -1398,7 +1398,7 @@ install.packages("ggbeeswarm")
     ## package 'ggbeeswarm' successfully unpacked and MD5 sums checked
     ## 
     ## The downloaded binary packages are in
-    ##  C:\Users\SHOW ICT\AppData\Local\Temp\RtmpsVGMsz\downloaded_packages
+    ##  C:\Users\SHOW ICT\AppData\Local\Temp\Rtmp4O06li\downloaded_packages
 
 ``` r
 library(ggbeeswarm)
@@ -1415,7 +1415,7 @@ daily_activity_n_sleep %>%
   theme(plot.title = element_text(size = 12))
 ```
 
-![](bellabeat-case-2_files/figure-gfm/unnamed-chunk-61-1.png)<!-- -->
+![](images/unnamed-chunk-61-1.png)<!-- -->
 
 **Minutes Asleep vs Time in Bed**
 
@@ -1430,7 +1430,7 @@ daily_activity_n_sleep %>%
 
     ## `geom_smooth()` using formula = 'y ~ x'
 
-![](bellabeat-case-2_files/figure-gfm/unnamed-chunk-62-1.png)<!-- -->
+![](images/unnamed-chunk-62-1.png)<!-- -->
 
 ### Minutes Asleep vs Calories
 
@@ -1445,7 +1445,7 @@ daily_activity_n_sleep %>%
 
     ## `geom_smooth()` using formula = 'y ~ x'
 
-![](bellabeat-case-2_files/figure-gfm/unnamed-chunk-63-1.png)<!-- -->
+![](images/unnamed-chunk-63-1.png)<!-- -->
 
 ``` r
 # Let's assemble all the plots in one place.
@@ -1481,7 +1481,7 @@ ggarrange(
     ## `geom_smooth()` using formula = 'y ~ x'
     ## `geom_smooth()` using formula = 'y ~ x'
 
-![](bellabeat-case-2_files/figure-gfm/unnamed-chunk-64-1.png)<!-- -->
+![](images/unnamed-chunk-64-1.png)<!-- -->
 
 ### Insights
 
